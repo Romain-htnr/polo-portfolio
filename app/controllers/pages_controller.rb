@@ -2,9 +2,21 @@ class PagesController < ApplicationController
   def home
   end
 
-  def contact
+  def about
   end
 
-  def about
+  def graphisme
+  end
+
+  def troisd
+  end
+
+  def animation
+  end
+
+  def design
+  end
+
+  def architecture
   end
 end
