@@ -1,0 +1,29 @@
+<div id="container1">
+  <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587133320/Polo/DSC_0720__yzvmxy.jpg">
+  <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587133247/Polo/DSC_0721__g3jrpw.jpg">
+</div>
+
+<script src="twentytwenty/js/jquery.twentytwenty.js"></script>
+<script src="twentytwenty/js/jquery.event.move.js"></script>
+
+<script>
+$(window).on('load', function() {
+  $("#container1").twentytwenty();
+});
+</script>
+
+<style>
+  .container1 {
+    width: 60%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+  }
+
+  .container1 img {
+    width: 60%;
+    height: 40vh;
+    object-fit: cover
+  }
+</style>

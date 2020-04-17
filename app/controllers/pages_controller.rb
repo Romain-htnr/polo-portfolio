@@ -15,6 +15,7 @@ class PagesController < ApplicationController
   end
 
   def design
+    @disable_nav = true
   end
 
   def architecture
