@@ -1,0 +1,22 @@
+.main-infos {
+  width: 70%;
+  position: absolute;
+  right: 6%;
+  top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main-infos {
+  p:nth-child(1) {
+    width: 350px;
+    font-size: 14px;
+  }
+
+  p:nth-child(2) {
+    width: 180px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
