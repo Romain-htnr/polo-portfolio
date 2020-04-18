@@ -1,3 +1,8 @@
 @import "components/index";
 @import "config/layout";
 @import "pages/index";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";

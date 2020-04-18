@@ -2,7 +2,7 @@
   width: 70%;
   position: absolute;
   right: 6%;
-  top: 28px;
+  top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -24,13 +24,13 @@
 }
 
 .skill-container {
-    margin-top: 200px;
+    margin-top: 60px;
     margin-left: 45px;
 }
 
 .skill-container li{
-    font-size: 64px;
-    margin-bottom: 20px;
+    font-size: 54px;
+    margin-bottom: 12px;
 }
 
 .skill-cat {
@@ -42,7 +42,6 @@
 .skill-container li::after{
   content: "";
   display: block;
-  width: 100%;
   height: 1px;
   position: relative;
   top: -16px;
