@@ -15,3 +15,14 @@ a:hover {
   text-decoration: none !important;
   color: inherit;
 }
+
+
+
+
+@font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
+
+.skill-container {
+   font-family: 'PlazaITC-Normal' !important;
+}
+
+@font-face { font-family: 'Graphit-Black'; font-weight: bold; src: url('Graphit-Black.otf'); }

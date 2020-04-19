@@ -1,0 +1,88 @@
+<div class="slideshow-container4" onclick="plusSlides4(1)">
+  <div class="mySlides4 fade4">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319210/Polo/1_Rolly_mq8jxt.jpg" style="width:100%; height:80vh">
+  </div>
+  <div class="mySlides4 fade4">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319237/Polo/3_Rolly_yv6kdd.jpg" style="width:100%; height:80vh">
+  </div>
+  <div class="mySlides4 fade4">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319469/Polo/5_Rolly_ectzdm.jpg" style="width:100%; height:80vh">
+  </div>
+</div>
+
+<div class="slideshow-container5" onclick="plusSlides5(1)">
+  <div class="mySlides5 fade5">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319177/Polo/Sche%CC%81ma_1_u9da0f.jpg" style="width:100%; height:80vh">
+  </div>
+<!--   <div class="mySlides5 fade5">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319237/Polo/3_Rolly_yv6kdd.jpg" style="width:100%; height:80vh">
+  </div>
+  <div class="mySlides5 fade5">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319569/Polo/5_Rolly_ectzdm.jpg" style="width:100%; height:80vh">
+  </div> -->
+</div>
+
+
+<script>
+//4RD SLIDESHOW
+
+var slideIndex4 = 1;
+var timer4 = null;
+showSlides4(slideIndex4);
+
+function plusSlides4(n) {
+  clearTimeout(timer4);
+  showSlides4(slideIndex4 += n);
+}
+
+function currentSlide4(n) {
+  clearTimeout(timer4);
+  showSlides(slideIndex4 = n);
+}
+
+function showSlides4(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides4");
+
+  if (n==undefined){n = ++slideIndex4}
+  if (n > slides.length) {slideIndex4 = 1}
+  if (n < 1) {slideIndex4 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex4-1].style.display = "block";
+  timer4 = setTimeout(showSlides4, 6000);
+}
+
+
+//5RD SLIDESHOW
+
+var slideIndex5 = 1;
+var timer5 = null;
+showSlides5(slideIndex5);
+
+function plusSlides5(n) {
+  clearTimeout(timer5);
+  showSlides5(slideIndex5 += n);
+}
+
+function currentSlide5(n) {
+  clearTimeout(timer5);
+  showSlides(slideIndex5 = n);
+}
+
+function showSlides5(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides5");
+
+  if (n==undefined){n = ++slideIndex5}
+  if (n > slides.length) {slideIndex5 = 1}
+  if (n < 1) {slideIndex5 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex5-1].style.display = "block";
+  timer5 = setTimeout(showSlides5, 6000);
+}
+
+</script>

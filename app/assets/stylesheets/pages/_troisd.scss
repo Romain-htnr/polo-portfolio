@@ -1,0 +1,39 @@
+.slideshow-container4 {
+  width: 60%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.mySlides4 img {
+  width: 60%;
+  height: 83vh;
+  margin-top: 8px;
+  object-fit: contain;
+}
+
+.fade4 {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.slideshow-container5 {
+  width: 60%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.mySlides5 img {
+  width: 60%;
+  height: 83vh;
+  margin-top: 8px;
+  object-fit: contain;
+}
+
+.fade5 {
+  animation-name: fade;
+  animation-duration: 3s;
+}
