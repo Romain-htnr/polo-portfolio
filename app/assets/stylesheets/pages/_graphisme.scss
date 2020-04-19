@@ -1,29 +1,29 @@
-* {box-sizing:border-box}
+// * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   width: 60%;
   max-width: 1000px;
-  position: relative;
-  left: 22%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -25px;
-  margin-bottom: 640px;
+  margin-bottom: 160px;
 }
 
 .slideshow-container2 {
   width: 60%;
   max-width: 1000px;
-  position: relative;
-  left: 22%;
-  margin-bottom: 1640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 160px;
 }
 
 .slideshow-container3 {
   width: 60%;
   max-width: 1000px;
-  position: relative;
-  left: 22%;
-  margin-bottom: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 /* Hide the images by default */
@@ -32,7 +32,6 @@
   height: 83vh;
   margin-top: 8px;
   object-fit: contain;
-  position: absolute;
 }
 
 .mySlides2 img {
@@ -40,7 +39,6 @@
   height: 83vh;
   margin-top: 8px;
   object-fit: contain;
-  position: absolute;
 }
 
 .mySlides3 img {
@@ -48,21 +46,6 @@
   height: 83vh;
   margin-top: 8px;
   object-fit: contain;
-  position: absolute;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: grey !important;
-  font-size: 22px;
-  transition: 0.6s ease;
-  user-select: none;
 }
 
 
@@ -73,12 +56,12 @@
 }
 
 .fade2 {
-  animation-name: fade2;
+  animation-name: fade;
   animation-duration: 1s;
 }
 
 .fade3 {
-  animation-name: fade3;
+  animation-name: fade;
   animation-duration: 3s;
 }
 
@@ -87,18 +70,16 @@
   to {opacity: 1}
 }
 
-@keyframes fade2 {
-  from {opacity: .7}
-  to {opacity: 1}
-}
-
-@keyframes fade3 {
-  from {opacity: .7}
-  to {opacity: 1}
-}
-
-.active {
-  background-color: black;
-}
-
-
+/* Next & previous buttons */
+// .prev, .next {
+//   cursor: pointer;
+//   position: absolute;
+//   top: 50%;
+//   width: auto;
+//   margin-top: -22px;
+//   padding: 16px;
+//   color: grey !important;
+//   font-size: 22px;
+//   transition: 0.6s ease;
+//   user-select: none;
+// }

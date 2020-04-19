@@ -29,15 +29,17 @@
 }
 
 .skill-container li{
-    font-size: 54px;
-    margin-bottom: 12px;
+  font-size: 54px;
+  margin-bottom: 12px;
 }
 
 .skill-cat {
   margin-left: 60px;
   font-size: 42px;
-  // text-decoration: line-through;
+  position: relative
 }
+
+
 
 .skill-container li::after{
   content: "";
@@ -52,3 +54,60 @@
   opacity: 0.5
 }
 
+span::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 14px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #FF334C;
+}
+
+span::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 14px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #FF334C;
+}
+
+
+.skill-cat::after {
+  position: absolute;
+  content: '';
+  top:50%;
+  left: 0;
+  width: 0;
+  height: 25%;
+  background-color: #f4e842;
+  transform-origin:left;
+  transition:width 0.75s ease;
+  z-index:10000;
+}
+
+.skill-cat:hover::after {
+  width: 100%;
+}
+
+.try2::after {
+  background-color: #f4e842;
+}
+
+.try2::after {
+  background-color: #1e7467;
+}
+
+.try3::after {
+  background-color: #1271ad;
+}
+
+.try4::after {
+  background-color: #283256;
+}
+
+.try5::after {
+  background-color: #a9a9a9;
+}
