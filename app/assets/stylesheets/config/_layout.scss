@@ -16,13 +16,27 @@ a:hover {
   color: inherit;
 }
 
+.page-name {
+  position: sticky;
+  top: 48px;
+  width: 95%;
+  text-align: right;
+  font-family: 'Graphit-Black';
+  font-size: 24px;
 
+}
 
+.pgc1 {color: #f4e842;}
+
+.pgc2 {color: #1e7467}
+
+.pgc3 {color: #1271ad}
+
+.pgc4 {color: #283256}
+
+.pgc5 {color: #a9a9a9}
 
 @font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
 
-.skill-container {
-   font-family: 'PlazaITC-Normal' !important;
-}
 
 @font-face { font-family: 'Graphit-Black'; font-weight: bold; src: url('Graphit-Black.otf'); }
