@@ -34,3 +34,44 @@
   border-radius: 50%;
 }
 
+////
+
+.slideshow-container6 {
+  width: 60%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 220px;
+}
+
+.slideshow-container7 {
+  width: 60%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.mySlides6 img {
+  width: 60%;
+  height: 83vh;
+  margin-top: 8px;
+  object-fit: contain;
+}
+
+.mySlides7 img {
+  width: 60%;
+  height: 83vh;
+  margin-top: 8px;
+  object-fit: contain;
+}
+
+.fade6 {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.fade7 {
+  animation-name: fade;
+  animation-duration: 3s;
+}

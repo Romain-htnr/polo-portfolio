@@ -2,7 +2,7 @@
   width: 70%;
   position: absolute;
   right: 6%;
-  top: 40px;
+  top: 45px;
   display: flex;
   justify-content: space-between;
 }
@@ -26,12 +26,13 @@
 }
 
 .skill-container {
+    font-family: 'PlazaITC-Normal' !important;
     margin-top: 60px;
     margin-left: 45px;
 }
 
 .skill-container li{
-  font-size: 54px;
+  font-size: 58px;
   margin-bottom: 12px;
 }
 
@@ -42,14 +43,12 @@
   font-family: 'Graphit-Black';
 }
 
-
-
 .skill-container li::after{
   content: "";
   display: block;
   height: 1px;
   position: relative;
-  top: -16px;
+  top: -22px;
   background: rgb(192,192,192);
   padding: 0px 25%;
   margin-left: -50%;
@@ -84,10 +83,10 @@ span::after {
   top:50%;
   left: 0;
   width: 0;
-  height: 25%;
+  height: 10%;
   background-color: #f4e842;
   transform-origin:left;
-  transition:width 0.75s ease;
+  transition: width 0.75s ease;
   z-index:10000;
 }
 

@@ -1,3 +1,7 @@
+<div class="page-name pgc4">design</div>
+<%= link_to root_path, class: "logo" do %>
+<img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587382246/Polo/newlogo_aa6e4a.png" alt="logo">
+<% end %>
 <div class="img-comp-container">
   <div class="img-comp-img">
     <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587133320/Polo/DSC_0720__yzvmxy.jpg" width="600" height="400">
@@ -6,6 +10,21 @@
     <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587133247/Polo/DSC_0721__g3jrpw.jpg" width="600" height="400">
   </div>
 </div>
+
+
+<div class="slideshow-container6" onclick="plusSlides6(1)">
+  <div class="mySlides6 fade6">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587383615/Polo/1_Table_dptgfz.jpg" style="width:100%; height:80vh">
+  </div>
+  <div class="mySlides6 fade6">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587383622/Polo/2_Table_y9kj0a.jpg" style="width:100%; height:80vh">
+  </div>
+  <div class="mySlides6 fade6">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587383622/Polo/3_Table_furwcc.jpg" style="width:100%; height:80vh">
+  </div>
+</div>
+
+
 
 <div class="img-comp-container">
   <div class="img-comp-img">
@@ -16,8 +35,22 @@
   </div>
 </div>
 
+
+
+<div class="slideshow-container7" onclick="plusSlides7(1)">
+  <div class="mySlides7 fade7">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587383581/Polo/1_Banc_bqhtl4.jpg" style="width:100%; height:80vh">
+  </div>
+  <div class="mySlides7 fade7">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587383583/Polo/3_Banc_hkq3ej.jpg" style="width:100%; height:80vh">
+  </div>
+  <div class="mySlides7 fade7">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587383581/Polo/2_Banc_nqinbk.jpg" style="width:100%; height:80vh">
+  </div>
+</div>
+
 <script>
-   function initComparisons() {
+  function initComparisons() {
   var x, i;
   /* Find all elements with an "overlay" class: */
   x = document.getElementsByClassName("img-comp-overlay");
@@ -94,4 +127,64 @@
   }
 }
 initComparisons();
+
+// SLIDESHOW 6
+
+var slideIndex6 = 1;
+var timer6 = null;
+showSlides6(slideIndex6);
+
+function plusSlides6(n) {
+  clearTimeout(timer6);
+  showSlides6(slideIndex6 += n);
+}
+
+function currentSlide6(n) {
+  clearTimeout(timer6);
+  showSlides(slideIndex6 = n);
+}
+
+function showSlides6(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides6");
+
+  if (n==undefined){n = ++slideIndex6}
+  if (n > slides.length) {slideIndex6 = 1}
+  if (n < 1) {slideIndex6 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex6-1].style.display = "block";
+  timer6 = setTimeout(showSlides6, 6000);
+}
+
+// SLIDESHOW 7
+
+var slideIndex7 = 1;
+var timer7 = null;
+showSlides7(slideIndex7);
+
+function plusSlides7(n) {
+  clearTimeout(timer7);
+  showSlides7(slideIndex7 += n);
+}
+
+function currentSlide7(n) {
+  clearTimeout(timer7);
+  showSlides(slideIndex7 = n);
+}
+
+function showSlides7(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides7");
+
+  if (n==undefined){n = ++slideIndex7}
+  if (n > slides.length) {slideIndex7 = 1}
+  if (n < 1) {slideIndex7 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex7-1].style.display = "block";
+  timer7 = setTimeout(showSlides7, 6000);
+}
 </script>
