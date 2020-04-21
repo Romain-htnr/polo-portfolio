@@ -1,6 +1,7 @@
+<div class="graphisme-container">
 <div class="page-name pgc1">graphisme</div>
 <%= link_to root_path, class: "logo" do %>
-<img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587382246/Polo/newlogo_aa6e4a.png" alt="logo">
+<img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587472870/Polo/logotest_hzr8br.png" alt="logo">
 <% end %>
 
 <div class="slideshow-container" onclick="plusSlides(1)">
@@ -34,7 +35,7 @@
     <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587223997/Polo/Tableau_mockup-03_tzghp6.jpg" style="width:100%; height:80vh">
   </div>
 </div>
-
+</div>
 
 <script>
 var slideIndex = 1;
@@ -71,7 +72,7 @@ function showSlides(n) {
       slides[i].style.display = "none";
   }
   slides[slideIndex-1].style.display = "block";
-  timer = setTimeout(showSlides, 2000000);
+  timer = setTimeout(showSlides, 200000000);
 }
 
 //2ND SLIDESHOW
@@ -96,7 +97,7 @@ function showSlides2(n) {
       slides[i].style.display = "none";
   }
   slides[slideIndex2-1].style.display = "block";
-  timer2 = setTimeout(showSlides2, 6000);
+  timer2 = setTimeout(showSlides2, 10000000);
 }
 
 //3RD SLIDESHOW
@@ -121,7 +122,7 @@ function showSlides3(n) {
       slides[i].style.display = "none";
   }
   slides[slideIndex3-1].style.display = "block";
-  timer3 = setTimeout(showSlides3, 6000);
+  timer3 = setTimeout(showSlides3, 10000000);
 }
 // https://www.w3schools.com/howto/howto_js_slideshow.asp
 </script>
