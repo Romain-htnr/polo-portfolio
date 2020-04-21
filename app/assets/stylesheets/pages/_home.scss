@@ -2,14 +2,14 @@
   width: 70%;
   position: absolute;
   right: 8%;
-  top: 45px;
+  top: 7%;
   display: flex;
   justify-content: space-between;
 }
 
 .main-infos {
   p:nth-child(1) {
-    width: 350px;
+    width: 35%;
     font-size: 14px;
     font-weight: bold;
     opacity: 0.4;
@@ -17,7 +17,7 @@
   }
 
   p:nth-child(2) {
-    width: 180px;
+    width: 10%;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
