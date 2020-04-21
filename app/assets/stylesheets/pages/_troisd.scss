@@ -14,6 +14,17 @@
   object-fit: contain;
 }
 
+.mySlides4 video {
+  width: 100%;
+  height: 83vh;
+  margin-top: 8px;
+  // margin-bottom: 100px;
+  position: absolute;
+  top: 50%;
+  display: block;
+  object-fit: contain;
+}
+
 .fade4 {
   animation-name: fade;
   animation-duration: 3s;
