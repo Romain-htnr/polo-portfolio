@@ -1,7 +1,8 @@
 <div class="page-name pgc2">3D</div>
 <%= link_to root_path, class: "logo" do %>
-<img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587382246/Polo/newlogo_aa6e4a.png" alt="logo">
+<img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587472870/Polo/logotest_hzr8br.png" alt="logo">
 <% end %>
+<div class="troisd-container">
 <div class="slideshow-container4" onclick="plusSlides4(1)">
   <div class="mySlides4 fade4">
     <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319210/Polo/1_Rolly_mq8jxt.jpg" style="width:100%; height:80vh">
@@ -13,19 +14,15 @@
     <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319469/Polo/5_Rolly_ectzdm.jpg" style="width:100%; height:80vh">
   </div>
 </div>
-
 <div class="slideshow-container5" onclick="plusSlides5(1)">
   <div class="mySlides5 fade5">
-    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319177/Polo/Sche%CC%81ma_1_u9da0f.jpg" style="width:100%; height:80vh">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587470419/Polo/Sche%CC%81ma_5_wrslru.jpg" style="width:100%; height:80vh">
   </div>
-<!--   <div class="mySlides5 fade5">
-    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319237/Polo/3_Rolly_yv6kdd.jpg" style="width:100%; height:80vh">
-  </div>
-  <div class="mySlides5 fade5">
-    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319569/Polo/5_Rolly_ectzdm.jpg" style="width:100%; height:80vh">
-  </div> -->
+  <video id="video" class="mySlides5 fade5" loop muted>
+    <source src="https://res.cloudinary.com/dgpkng6h9/video/upload/v1587316903/Polo/Metz_gpqjfw.mp4" type="video/mp4">
+  </video>
 </div>
-
+</div>
 
 <script>
 //4RD SLIDESHOW
@@ -55,7 +52,7 @@ function showSlides4(n) {
       slides[i].style.display = "none";
   }
   slides[slideIndex4-1].style.display = "block";
-  timer4 = setTimeout(showSlides4, 6000);
+  timer4 = setTimeout(showSlides4, 6000000);
 }
 
 
@@ -86,7 +83,17 @@ function showSlides5(n) {
       slides[i].style.display = "none";
   }
   slides[slideIndex5-1].style.display = "block";
-  timer5 = setTimeout(showSlides5, 6000);
+  timer5 = setTimeout(showSlides5, 6000000);
 }
+
+video = jQuery('#video').get()[0];
+
+video.addEventListener('loadeddata', function() {
+      video.play();
+});
+
+video.addEventListener('pause', function() {
+    video.play();
+});
 
 </script>
