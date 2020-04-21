@@ -1,7 +1,7 @@
 .main-infos {
   width: 70%;
   position: absolute;
-  right: 6%;
+  right: 8%;
   top: 45px;
   display: flex;
   justify-content: space-between;
@@ -28,16 +28,16 @@
 .skill-container {
     font-family: 'PlazaITC-Normal' !important;
     margin-top: 60px;
-    margin-left: 43px;
+    margin-left: 79px;
 }
 
 .skill-container li{
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 12px;
 }
 
 .skill-cat {
-  // margin-left: 10px;
+  margin-left: 145px;
   font-size: 52px;
   letter-spacing: 3px;
   position: relative;
@@ -83,6 +83,7 @@ span::after {
   content: '';
   top:50%;
   left: 0;
+  // margin-left:10px;
   width: 0;
   height: 10%;
   background-color: #f4e842;
