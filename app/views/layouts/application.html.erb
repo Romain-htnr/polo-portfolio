@@ -5,10 +5,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <!-- from app/assets/javascripts/application.js -->
+   <!--  <%= javascript_pack_tag "application" %> -->
+      <!-- from app/javascript/packs/application.js -->
     <%= favicon_link_tag asset_path('logo1.png') %>
   </head>
   <body>
+
+      <%= javascript_pack_tag 'application' %>
     <%= yield %>
   </body>
 </html>
