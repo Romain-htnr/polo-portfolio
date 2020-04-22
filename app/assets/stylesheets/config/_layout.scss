@@ -37,7 +37,36 @@ a:hover {
 
 .pgc5 {color: #a9a9a9}
 
-@font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
+.project-info {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  font-weight: light;
+  margin-bottom: 160px;
+}
 
+.project-info-last {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  font-weight: light;
+  margin-bottom: 20px;
+}
 
-@font-face { font-family: 'Graphit-Black'; font-weight: bold; src: url('Graphit-Black.otf'); }
+.project-info-last span {
+  font-weight: light;
+  font-style: normal;
+}
+
+.project-info span {
+  font-weight: light;
+  font-style: normal;
+}
