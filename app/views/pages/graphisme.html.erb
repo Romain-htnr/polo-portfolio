@@ -1,3 +1,4 @@
+
 <div class="graphisme-container">
 <div class="page-name pgc1">graphisme</div>
 <%= link_to root_path, class: "logo" do %>
@@ -18,7 +19,9 @@
   <a class="next" onclick="plusSlides(1)"></a>
 </div>
 <div class="project-info">Portrait de famille -<span> Illustration numérique</span></div>
-<!-- </div> -->
+<div class="arrow">
+<i class="fas fa-arrow-down arrow"></i>
+</div>
 <!-- onclick="plusSlides2(1)" -->
 <div class="slideshow-container2">
   <div class="mySlides2 fade2">
@@ -34,6 +37,9 @@
   <a class="next" onclick="plusSlides2(1)"></a>
 </div>
 <div class="project-info">Boucau -<span> Illustration numérique, 40x50cm</span></div>
+<div class="arrow">
+<i class="fas fa-arrow-down arrow"></i>
+</div>
 <!-- onclick="plusSlides3(1)" -->
 <div class="slideshow-container3" >
   <div class="mySlides3 fade3">
@@ -52,6 +58,7 @@
 </div>
 
 <script>
+
 var slideIndex = 1;
 var timer = null;
 showSlides(slideIndex);
@@ -138,5 +145,4 @@ function showSlides3(n) {
   slides[slideIndex3-1].style.display = "block";
   timer3 = setTimeout(showSlides3, 10000000);
 }
-// https://www.w3schools.com/howto/howto_js_slideshow.asp
 </script>
