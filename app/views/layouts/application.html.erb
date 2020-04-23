@@ -9,11 +9,12 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
     <!-- from app/assets/javascripts/application.js -->
     <!-- from app/javascript/packs/application.js -->
+    <%= javascript_pack_tag 'application' %>
     <%= favicon_link_tag asset_path('logo1.png') %>
   </head>
   <body>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
-    <%= javascript_pack_tag 'application' %>
+
   </body>
 </html>
