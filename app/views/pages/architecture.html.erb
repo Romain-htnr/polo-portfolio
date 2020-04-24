@@ -3,16 +3,34 @@
 <%= link_to root_path, class: "logo" do %>
 <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587472870/Polo/logotest_hzr8br.png" alt="logo">
 <% end %>
-
-
-<iframe src="portfolio_2020.pdf" class="letssy" frameborder="0"></iframe>
-
+<div class="flip-portfolio-container">
+<iframe class="flip-portfolio-container" style="width:700px;height:400px" src="https://online.fliphtml5.com/nxnvr/qbdm/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
+</div>
 <style>
-  iframe {
-    margin-top: 200px;
-    width: 50%;
-    height: 50vh;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
+#fbTopBar{
+display: none;
+}
+
+.flip-portfolio-container {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*/html/body/div[3]*/
+
+.adsbygoogle {
+  display: none !important;
+}
+
+#logoBar > img{
+  display: none !important;
+}
+/*.logoBar {
+  opacity: 0;
+  display:none !important;
+}
+*/
 </style>
