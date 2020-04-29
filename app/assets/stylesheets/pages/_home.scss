@@ -106,7 +106,14 @@ span::after {
   background-color: #a9a9a9;
 }
 
-
+.page-name {
+  position: fixed;
+  top: 48px;
+  width: 95%;
+  text-align: right;
+  font-family: 'Graphit-Black';
+  font-size: 24px;
+  }
 
 @media only screen and (max-width: 600px) {
   .skill-container{
@@ -127,5 +134,14 @@ span::after {
   font-size: 12px;
   margin-top: 10px;
   margin-left: 150px;
+  }
+
+  .page-name {
+  position: absolute;
+  top: 48px;
+  width: 95%;
+  text-align: right;
+  font-family: 'Graphit-Black';
+  font-size: 24px;
   }
 }
