@@ -117,11 +117,12 @@ span::after {
 
 @media only screen and (max-width: 600px) {
   .skill-container{
-  margin-left: 20px;
+  margin-left: 0px;
   }
 
   .skill-cat {
   margin-left: 20px;
+  font-size: 66px;
   }
 
   .logo2 img{
@@ -146,8 +147,12 @@ span::after {
   }
 
   .skill-container li{
-  font-size: 20px;
-  margin-bottom: 6%;
+  font-size: 30px;
+  // margin-bottom: 6%;
   color: #7A7D7D;
-}
+  }
+
+  .skill-container {
+    margin-left: -10px;
+  }
 }
