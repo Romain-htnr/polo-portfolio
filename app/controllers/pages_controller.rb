@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def architecture
   end
+
+  def apropos
+  end
 end

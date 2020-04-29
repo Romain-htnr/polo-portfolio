@@ -1,7 +1,8 @@
 .main-info {
   width: 70%;
   position: absolute;
-  right: 8%;
+  // right: 8%;
+  margin-left: 290px;
   top: 7%;
   display: flex;
   justify-content: space-between;
@@ -15,6 +16,7 @@
     font-family: 'PlazaITC-Normal' !important;
     margin-top: 60px;
     margin-left: 79px;
+    // max-width: 100%;
 }
 
 .skill-container li{
@@ -102,4 +104,28 @@ span::after {
 
 .try5::after {
   background-color: #a9a9a9;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .skill-container{
+  margin-left: 20px;
+  }
+
+  .skill-cat {
+  margin-left: 20px;
+  }
+
+  .logo2 img{
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  }
+
+  .main-info{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 150px;
+  }
 }

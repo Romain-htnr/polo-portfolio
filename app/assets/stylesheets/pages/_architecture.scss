@@ -1,4 +1,31 @@
-// #iframepdf {
-//   width: 40%;
-//   height: 50vh;
-// }
+iframe {
+  width:900px;
+  height: 70vh;
+}
+
+#fbTopBar{
+display: none;
+}
+
+.flip-portfolio-container {
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+/*/html/body/div[3]*/
+
+.adsbygoogle {
+  display: none !important;
+}
+
+#logoBar > img{
+  display: none !important;
+}
+/*.logoBar {
+  opacity: 0;
+  display:none !important;
+}
+*/
+
