@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'troisd', to: 'pages#troisd'
   get 'animation', to: 'pages#animation'
   get 'design', to: 'pages#design'
+  get 'apropos', to: 'pages#apropos'
   get 'architecture', to: 'pages#architecture'
   resources :skills do
     resources :projects, only: [:new, :create, :show]

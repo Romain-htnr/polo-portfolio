@@ -1,0 +1,25 @@
+<div class="page-name pgc1">à propos</div>
+  <%= link_to root_path, class: "logo" do %>
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587472870/Polo/logotest_hzr8br.png" alt="logo">
+  <% end %>
+<div class="apropos-container">
+<div class="info-apropos">
+  <h1>Qui suis-je ?</h1>
+  <p>Je suis architecte et passioné par le graphisme et le design. Je suis diplômé de l’ENSA Strasbourg et grâce à ma formation et mon expérience, j’ai acquis des connaissances dans de nombreux domaines. Mon champ de compétences en conception assistée par ordinateur est large; je maîtrise divers outils de modélisation, de rendu et graphiques en deux et trois dimensions.</p>
+</div>
+<video id="video2" loop muted>
+  <source src="https://res.cloudinary.com/dgpkng6h9/video/upload/v1588151606/Polo/a%CC%80_propos_Le%CC%81o-Paul_AE_1_pjk981.mp4" type="video/mp4">
+</video>
+</div>
+
+<script>
+  video = jQuery('#video2').get()[0];
+
+  video.addEventListener('loadeddata', function() {
+      video.play();
+  });
+
+  video.addEventListener('pause', function() {
+      video.play();
+  });
+</script>
