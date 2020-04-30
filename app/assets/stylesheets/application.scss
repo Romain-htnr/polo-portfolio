@@ -9,14 +9,21 @@
 
 
 @font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
-@font-face { font-family: 'Graphit-Black'; font-weight: bold; src: url('Graphit-Black.otf'); }
+// @font-face { font-family: 'Graphit-Black'; font-weight: bold; src: url('Graphit-Black.otf'); }
 @font-face { font-family: 'Arsilon'; font-weight: regular; src: url('Arsilon.ttf'); }
 
-@font-face {
-  font-family: 'graphitblack';
-  src:url('graphit-black-webfont.woff2') format('woff2'),
-      url('graphit-black-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'graphitblack';
+//   src:url('graphit-black-webfont.woff2') format('woff2'),
+//       url('graphit-black-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
+
+@font-face {
+font-family: "Graphit-Black";
+src: url("Graphit-Black.otf");
+src: url("graphit-black-webfont.woff") format("woff");
+src: url('graphit-black-webfont.woff2') format('woff2'),
+}
