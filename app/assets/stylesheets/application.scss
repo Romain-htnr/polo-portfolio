@@ -8,18 +8,18 @@
 @import "font-awesome";
 
 
-@font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
+// @font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
 
 @font-face {
   font-family: 'Arsilon';
-  src: url("arsilon-webfont.woff") format("woff");
-  src: url('arsilon-webfont.woff2') format('woff2');
+  src: url("Arsilon.ttf")  format('truetype');
   font-weight: regular;
 }
 
-@font-face {
-  font-family: "Graphit-Black";
-  src: url("smd/graphit-black-webfont.woff") format("woff");
-  src: url('smd/graphit-black-webfont.woff2') format('woff2');
-  font-weight: bold;
-}
+// @font-face {
+//   font-family: "Graphit-Black";
+//   src: local("smd/graphit-black-webfont.woff") format("woff");
+//   src: local('smd/graphit-black-webfont.woff2') format('woff2');
+//   font-weight: bold;
+// }
+
