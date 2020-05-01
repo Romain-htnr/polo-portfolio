@@ -10,16 +10,26 @@
 
 // @font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
 
-@font-face {
-  font-family: 'Arsilon';
-  src: url("Arsilon.ttf")  format('truetype');
-  font-weight: regular;
-}
-
 // @font-face {
-//   font-family: "Graphit-Black";
-//   src: local("smd/graphit-black-webfont.woff") format("woff");
-//   src: local('smd/graphit-black-webfont.woff2') format('woff2');
-//   font-weight: bold;
+//   font-family: 'Arsilon';
+//    src: url("path/GraublauWeb.otf") format("opentype");
+//   src: url("arsilon-webfont.woff") format("woff");
+//   src: url('arsilon-webfont.woff2') format('woff2');
+//   font-weight: regular;
 // }
 
+@font-face {
+  font-family: "Graphit-Black";
+  src: local("smd/graphit-black-webfont.woff") format("opentype");
+  src: local('smd/graphit-black-webfont.woff2') format('woff2');
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .info-apropos h1 {
+    font-family: 'Arsilon';
+    src: url("Arsilon.ttf")  format('truetype');
+  }
+}
