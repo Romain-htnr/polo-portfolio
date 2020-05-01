@@ -12,7 +12,7 @@
 }
 
 .skill-container {
-  font-family: 'PlazaITC-Normal' !important;
+  font-family: 'PlazaITC-Normal';
   margin-top: 60px;
   margin-left: 79px;
   // max-width: 100%;
@@ -30,7 +30,7 @@
   letter-spacing: 3px;
   color: black;
   position: relative;
-  font-family: 'Graphit-Black';
+  font-family: $my-font;
 }
 
 .skill-container li::after{
@@ -141,7 +141,7 @@ span::after {
     top: 48px;
     width: 95%;
     text-align: right;
-    font-family: $my-font;
+    font-family: "Graphit-Black";
     font-size: 24px;
   }
 

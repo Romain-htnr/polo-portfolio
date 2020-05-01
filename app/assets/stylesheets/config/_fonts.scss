@@ -9,12 +9,26 @@
 
 
 
+
+
+
+
+
+
 @font-face {
-    font-family: "Graphit-Black";
-    // src: local("../../fonts/Graphit-Black.otf");
-    // src: url("..\..\public\fonts\Alef\Alef-Webfont\Alef-Bold.eot?#iefix") format("embedded-opentype");
-    src: local("../../fonts/Graphit-Black.woff") format("woff");
+  font-family:'Graphit-Black';
+  // src:url(asset-path('fonts/icofonts.eot'));
+  src:url(asset-path('fonts/Graphit-Black.woff')) format('woff'),
 }
 
-
 $my-font: "Graphit-Black";
+// @font-face {
+//   font-family:'icofonts';
+//   src:font-url('icofonts.eot');
+//   src:font-url('icofonts.eot?#iefix') format('embedded-opentype'),
+
+//   ...
+// }
+
+//     // src: local("../../fonts/Graphit-Black.otf");
+    // src: url("..\..\public\fonts\Alef\Alef-Webfont\Alef-Bold.eot?#iefix") format("embedded-opentype");
