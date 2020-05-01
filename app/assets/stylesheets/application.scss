@@ -1,46 +1,9 @@
 @import "components/index";
 @import "config/layout";
+@import "config/fonts";
 @import "pages/index";
 
 // External libraries
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-
-
-
-
-
-@font-face{
-  font-family: 'Graphit-Black';
-  src: url('Graphit-Black.otf') format('opentype'),;
-  // src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-  //      url('WebFont.woff') format('woff'),
-  //      url('WebFont.ttf') format('opentype'),
-  //      url('WebFont.svg#webfont') format('svg');
-}
-// @font-face { font-family: 'PlazaITC-Normal'; font-weight: regular; src: url('PlazaITC-Normal.ttf'); }
-
-// @font-face {
-//   font-family: 'Arsilon';
-//   src: url("path/GraublauWeb.otf") format("opentype");
-//   src: url("arsilon-webfont.woff") format("woff");
-//   src: url('arsilon-webfont.woff2') format('woff2');
-//   font-weight: regular;
-// }
-
-// @font-face {
-//   font-family: "Graphit-Black";
-//   src: local("smd/graphit-black-webfont.woff") format("opentype");
-//   src: local('smd/graphit-black-webfont.woff2') format('woff2');
-//   font-weight: bold;
-// }
-
-
-
-// @media only screen and (max-width: 800px) {
-//   .info-apropos h1 {
-//     font-family: 'Arsilon';
-//     src: url("Arsilon.ttf")  format('truetype');
-//   }
-// }
