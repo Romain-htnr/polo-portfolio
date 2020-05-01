@@ -1,34 +1,22 @@
-// @font-face{
-//   font-family: 'Graphit-Black';
-//   src: url('../Graphit-Black.otf') format('opentype'),;
-//   // src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-//   //      url('WebFont.woff') format('woff'),
-//   //      url('WebFont.ttf') format('opentype'),
-//   //      url('WebFont.svg#webfont') format('svg');
-// }
-
-
-
-
-
-
-
-
-
 @font-face {
   font-family:'Graphit-Black';
-  // src:url(asset-path('fonts/icofonts.eot'));
   src:url(asset-path('fonts/Graphit-Black.woff')) format('woff'),
 }
 
 $my-font: "Graphit-Black";
-// @font-face {
-//   font-family:'icofonts';
-//   src:font-url('icofonts.eot');
-//   src:font-url('icofonts.eot?#iefix') format('embedded-opentype'),
 
-//   ...
-// }
 
-//     // src: local("../../fonts/Graphit-Black.otf");
-    // src: url("..\..\public\fonts\Alef\Alef-Webfont\Alef-Bold.eot?#iefix") format("embedded-opentype");
+@font-face {
+  font-family:'Arsilon';
+  src:url(asset-path('fonts/Arsilon.woff')) format('woff'),
+}
+
+$Arsilon:'Arsilon';
+
+
+@font-face {
+  font-family:'PlazaITC-Normal';
+  src:url(asset-path('fonts/Plaza.woff')) format('woff'),
+}
+
+$numbers: "PlazaITC-Normal"
