@@ -12,10 +12,10 @@
 }
 
 .skill-container {
-    font-family: 'PlazaITC-Normal' !important;
-    margin-top: 60px;
-    margin-left: 79px;
-    // max-width: 100%;
+  font-family: 'PlazaITC-Normal' !important;
+  margin-top: 60px;
+  margin-left: 79px;
+  // max-width: 100%;
 }
 
 .skill-container li{
@@ -141,7 +141,7 @@ span::after {
     top: 48px;
     width: 95%;
     text-align: right;
-    font-family: 'Graphit-Black';
+    font-family: $my-font;
     font-size: 24px;
   }
 
@@ -152,7 +152,7 @@ span::after {
   }
 
   .skill-container {
-   margin-left: -10px;
+    margin-left: -10px;
   }
 
   .skill-cat::after {
@@ -163,7 +163,7 @@ span::after {
 
 @media only screen and (max-width: 800px) {
   .skill-cat::after {
-  width: 100%;
-  height: 6%;
+    width: 100%;
+    height: 6%;
   }
 }
