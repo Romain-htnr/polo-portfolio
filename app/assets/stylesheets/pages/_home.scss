@@ -14,7 +14,11 @@
 .skill-container {
   font-family: $numbers;
   margin-top: 60px;
+  height: 74vh;
   margin-left: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   // max-width: 100%;
 }
 
@@ -115,9 +119,9 @@ span::after {
 }
 
 @media only screen and (max-width: 600px) {
-  .skill-container{
-    margin-left: 0px;
-  }
+  // .skill-container{
+  //   margin-left: 0px;
+  // }
 
   .skill-cat {
     margin-left: 20px;
