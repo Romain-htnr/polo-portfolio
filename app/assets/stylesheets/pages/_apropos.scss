@@ -32,12 +32,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #video2 {
-    height: 50vh;
-  }
-
   .apropos-container {
     display: block;
+    width: 90%;
   }
 
   .info-apropos {
@@ -50,20 +47,13 @@
   #video2 {
     position: relative;
     right: -10%;
-    // margin-right: auto;
-    // margin-left: auto;
+    width: 70%;
+    height: inherit;
   }
 
   .info-apropos h1 {
-    // margin-bottom: 60px;
     font-family: 'Arsilon';
-    // opacity: 80%;
     font-weight: normal !important;
     font-style: normal !important;
   }
-
-  // .info-apropos h1 {
-  //   font-family: 'Arsilon';
-  //   src: url("Arsilon.ttf")  format('truetype');
-  // }
 }
