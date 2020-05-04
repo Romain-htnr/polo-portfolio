@@ -98,15 +98,14 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .diff {
-    // margin-top: -140px !important;
-     bottom: -10px !important;
+    margin-top: 10px;
+    bottom: -10px !important;
   }
 
   .project-info {
     position: relative;
     // line-height: 2px;
-
-    bottom: -40px;
+    // bottom: -40px;
   }
 
   .diff2 {
@@ -115,5 +114,9 @@ a:hover {
 
   .arrow {
     margin-top: 40px;
+  }
+
+  .last {
+    margin-bottom: 140px !important;
   }
 }
