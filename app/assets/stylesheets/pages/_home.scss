@@ -14,8 +14,6 @@
   opacity: 0.4;
 }
 
-
-
 .skill-container {
   font-family: $numbers;
   margin-top: 4%;
@@ -124,10 +122,6 @@ span::after {
 }
 
 @media only screen and (max-width: 600px) {
-  // .skill-container{
-  //   margin-left: 0px;
-  // }
-
   .skill-cat {
     margin-left: 20px;
     font-size: 46px;
@@ -140,6 +134,7 @@ span::after {
   }
 
   .main-info{
+    display: block;
     font-size: 12px;
     margin-top: 10px;
     margin-left: 150px;
@@ -151,6 +146,15 @@ span::after {
     width: 95%;
     text-align: right;
     font-family: "Graphit-Black";
+    font-size: 24px;
+  }
+
+  .main-info h2 {
+    position: relative;
+    // top: 48px;
+    // width: 95%;
+    text-align: right;
+    font-family: 'Graphit-Black';
     font-size: 24px;
   }
 
@@ -170,11 +174,7 @@ span::after {
   }
 
   .main-info p {
-    font-size: 12px;
-  }
-
-  .main-info h2 {
-    font-size: 18px;
+    display: none;
   }
 }
 
