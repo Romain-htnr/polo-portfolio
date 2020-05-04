@@ -12,9 +12,10 @@
 @media only screen and (max-width: 600px) {
   .bloc{
     display: block;
-    width: 80%;
+    width: 80% !important;
+    height: 24vh !important;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 180px !important;
   }
 }
