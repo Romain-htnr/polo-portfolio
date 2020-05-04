@@ -33,21 +33,22 @@
 
   <div class="slideshow-container5" >
     <div class="mySlides5 fade5">
-      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587475228/Polo/1Metz_tlyrhc.jpg" style="width:100%; height:80vh">
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587475228/Polo/1Metz_tlyrhc.jpg">
     </div>
     <div class="mySlides5 fade5">
-      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587470419/Polo/Sche%CC%81ma_5_wrslru.jpg" style="width:100%; height:80vh">
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587470419/Polo/Sche%CC%81ma_5_wrslru.jpg">
     </div>
-    <video id="video2" class="mySlides5 fade5" loop muted autoplay playsinline>
+    <video id="video3" class="mySlides5 fade5" loop muted autoplay playsinline>
       <source src="https://res.cloudinary.com/dgpkng6h9/video/upload/v1587316903/Polo/Metz_gpqjfw.mp4" type="video/mp4">
     </video>
     <a class="prev" onclick="plusSlides5(-1)"></a>
     <a class="next" onclick="plusSlides5(1)"></a>
-  </div>
   <div class="project-info">
     <p class="title-project">Projet de fin d'études,</p>
     <p class="project-type"> caserne Desvallières de Metz</p>
   </div>
+  </div>
+
 </div>
 
 <script>
@@ -123,14 +124,14 @@ video.addEventListener('pause', function() {
     video.play();
 });
 
-video2 = jQuery('#video2').get()[0];
+video3 = jQuery('#video3').get()[0];
 
-video2.addEventListener('loadeddata', function() {
-      video2.play();
+video3.addEventListener('loadeddata', function() {
+      video3.play();
 });
 
-video2.addEventListener('pause', function() {
-    video2.play();
+video3.addEventListener('pause', function() {
+    video3.play();
 });
 
 </script>
