@@ -1,20 +1,16 @@
 iframe {
-  width:900px;
+  display: block;
+  width: 70%;
   height: 70vh;
-}
-
-#fbTopBar{
-display: none;
-}
-
-.flip-portfolio-container {
-  width: 80%;
-  margin-top: 100px;
-  margin-left: 120px;
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
 }
 
-/*/html/body/div[3]*/
+#fbTopBar{
+  display: none;
+}
 
 .adsbygoogle {
   display: none !important;
@@ -23,9 +19,11 @@ display: none;
 #logoBar > img{
   display: none !important;
 }
-/*.logoBar {
-  opacity: 0;
-  display:none !important;
-}
-*/
 
+// @media only screen and (max-width: 600px) {
+//   // iframe {
+//   //   height: 40vh !important;
+//   //   margin-top: 30% !important;
+//   //   width: 70%;
+//   // }
+// }
