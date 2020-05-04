@@ -1,15 +1,22 @@
 .main-info {
   width: 70%;
   position: absolute;
-  margin-left: 290px;
+  right: 4%;
   top: 7%;
   display: flex;
   justify-content: space-between;
   font-size: 17px;
   font-weight: bold;
-  opacity: 0.4;
   font-family: 'Graphit-Black';
 }
+
+.main-info p {
+  opacity: 0.4;
+}
+
+// .main-info h2 {
+
+// }
 
 .skill-container {
   font-family: $numbers;
