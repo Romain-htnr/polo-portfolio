@@ -5,9 +5,19 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
-  // height: 79vh;
 }
 
+.mySlides4 img {
+  width: 100%;
+  height: 80vh;
+  margin-top: 8px;
+  object-fit: contain;
+}
+
+.slideshow-container4 video {
+  width: 100%;
+  object-fit: contain;
+}
 
 .slideshow-container5 {
   position: relative;
@@ -18,22 +28,9 @@
   margin-right: auto;
 }
 
-.slideshow-container4 video {
-  width: 100%;
-  object-fit: contain;
-}
-
 .slideshow-container5 video {
   width: 100%;
   height: 83vh;
-  object-fit: contain;
-}
-
-
-.mySlides4 img {
-    width: 60%;
-  height: 83vh;
-  margin-top: 8px;
   object-fit: contain;
 }
 
@@ -58,3 +55,56 @@
   margin-bottom: 80px !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .slideshow-container4 {
+    width: 80%;
+    // height: 30vh !important;
+    // max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+  }
+
+  .mySlides4 img {
+    width: 100%;
+    height: 40vh;
+    // height: 83vh;
+    margin-top: 8px;
+    object-fit: contain;
+  }
+
+  .slideshow-container4 video {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+  }
+
+  #video {
+    width: 100%;
+    height: 40vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .undervideo {
+    margin-bottom: 0px !important;
+  }
+
+  .project-info {
+    position: relative;
+
+    bottom: -60px;
+  }
+
+  .jump{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .arrow {
+    margin-top: 20px;
+  }
+}
