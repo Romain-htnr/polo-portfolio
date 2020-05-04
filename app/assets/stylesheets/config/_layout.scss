@@ -94,3 +94,24 @@ a:hover {
     transform: translateY(-10px);
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .diff {
+    bottom: -10px !important;
+  }
+
+  .project-info {
+    position: relative;
+    // line-height: 2px;
+    bottom: -60px;
+  }
+
+  .diff2 {
+    margin-top: -30px !important;
+  }
+
+  .arrow {
+    margin-top: 40px;
+  }
+}
