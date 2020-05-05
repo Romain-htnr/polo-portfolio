@@ -80,13 +80,11 @@
 .prev, .next {
   cursor: w-resize;
   position: absolute;
-  // z-index: -1;
-  // background-color: red;
+  opacity: 0;
   top: 0;
   height: 100%;
   width: 50%;
   padding: 16px;
-  color: grey !important;
   transition: 0.6s ease;
   user-select: none;
 }
@@ -96,6 +94,8 @@
   right: 0;
   cursor: e-resize;
 }
+
+
 
 .try-dat {
   font-family: Roboto;
@@ -127,4 +127,45 @@
   .graphisme-container {
     margin-top: 60px;
   }
+
+  .prev, .next {
+    top: 50%;
+    opacity: 0.4;
+    height: 8%;
+    width: 5%;
+    z-index: 100;
+    font-size: 44px;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: -6%;
+    // cursor: pointer;
+  }
+
+  .prev {
+    left: -11%;
+  }
+
+
+// .prev, .next {
+//   cursor: pointer;
+//   position: absolute;
+//   top: 50%;
+//   width: auto;
+//   margin-top: -22px;
+//   padding: 16px;
+//   color: white !important;
+//   font-weight: bold;
+//   font-size: 34px;
+//   transition: 0.6s ease;
+//   border-radius: 0 3px 3px 0;
+//   user-select: none;
+// }
+
+// /* Position the "next button" to the right */
+// .next {
+//   right: 0;
+//   border-radius: 3px 0 0 3px;
+// }
 }
