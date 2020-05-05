@@ -1,39 +1,10 @@
 // * {box-sizing: border-box;}
-
-.img-comp-container {
-  position: relative;
-  height: 400px; /*should be the same height as the images*/
-  margin-top: 180px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 20px;
-}
-
-.img-comp-img {
-  position: absolute;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-}
-
-.img-comp-img img {
-  display: block;
-  vertical-align: middle;
-}
-
-.img-comp-slider {
-  position: absolute;
-  z-index: 9;
-  cursor: ew-resize;
-  width: 20px;
-  height: 100%;
-  opacity: 0.7;
-  border-radius: 50%;
+.design-container {
+  margin-bottom: 60px;
 }
 
 .slideshow-container6 {
-  width: 60%;
+  width: 54%;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -41,7 +12,7 @@
 }
 
 .slideshow-container7 {
-  width: 60%;
+  width: 54%;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -50,14 +21,14 @@
 }
 
 .mySlides6 img {
-  width: 60%;
+  width: 54%;
   height: 83vh;
   margin-top: 8px;
   object-fit: contain;
 }
 
 .mySlides7 img {
-  width: 60%;
+  width: 54%;
   height: 83vh;
   margin-top: 8px;
   object-fit: contain;
@@ -71,4 +42,68 @@
 .fade7 {
   animation-name: fade;
   animation-duration: 3s;
+}
+
+
+
+.img-comp-container {
+  position: relative;
+  height: 55vh; /*should be the same height as the images*/
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  margin-bottom: 20px;
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+  width: 640px;
+  height: 55vh;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  width: 20px;
+  height: 100%;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .slideshow-container7 {
+    height: 60vh;
+    width: 80%;
+  }
+
+  .slideshow-container6 {
+    height: 60vh;
+    width: 80%;
+  }
+
+  .design-container .arrow {
+    margin-top: 0px;
+  }
+
+  .img-comp-container {
+    height: 38vh; /*should be the same height as the images*/
+    width: 400px;
+  }
+
+  .img-comp-img img {
+    height: 38vh;
+    width: 400px;
+  }
 }
