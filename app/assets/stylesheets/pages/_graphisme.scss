@@ -108,7 +108,7 @@
   .slideshow-container {
     width: 80%;
     height: 68vh;
-    margin-top: 10px;
+    margin-top: 120px;
     margin-bottom: 0px;
   }
 
@@ -145,6 +145,10 @@
   .next {
     right: -18%;
     // cursor: pointer;
+  }
+
+  .prev2, .next2 {
+    top: 35%;
   }
 
   .prev {
