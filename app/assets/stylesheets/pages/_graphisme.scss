@@ -141,6 +141,22 @@
     font-size: 24px;
   }
 
+  .logo img{
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+
+  .page-name {
+    position: absolute;
+    top: 48px;
+    width: 95%;
+    text-align: right;
+    font-family: "Graphit-Black";
+    font-size: 24px;
+  }
+
   /* Position the "next button" to the right */
   .next {
     right: -18%;

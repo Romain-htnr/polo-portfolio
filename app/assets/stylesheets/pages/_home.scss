@@ -121,6 +121,14 @@ span::after {
   font-size: 24px;
 }
 
+@media only screen and (max-width: 700px) {
+
+  .slideshow-container {
+    margin-top: 155px;
+  }
+}
+
+
 @media only screen and (max-width: 600px) {
   .skill-cat {
     margin-left: 20px;
@@ -138,15 +146,6 @@ span::after {
     font-size: 12px;
     margin-top: 10px;
     margin-left: 150px;
-  }
-
-  .page-name {
-    position: absolute;
-    top: 48px;
-    width: 95%;
-    text-align: right;
-    font-family: "Graphit-Black";
-    font-size: 24px;
   }
 
   .main-info h2 {
@@ -189,9 +188,17 @@ span::after {
   .main-info p {
     display: none;
   }
+
+    body > div.graphisme-container > div.project-info.diff.last {
+    // margin-top: 10vh;
+  }
+
+  .project-info {
+    margin-top: 13vh;
+  }
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 400px) {
   .skill-cat{
     font-size: 30px;
   }
@@ -202,5 +209,37 @@ span::after {
   .main-info h2 {
     font-size: 18px;
   }
+
+  .diff {
+    margin-top: 10vh;
+  }
+
+  body > div.graphisme-container > div.project-info.diff.last {
+    margin-top: 8vh;
+  }
+
+  .project-info {
+    margin-top: 10vh;
+  }
+
+  body > div.troisd-container > div.slideshow-container5 > div.project-info.fix {
+    display: block;
+    text-align: center;
+  }
 }
 
+@media only screen and (max-width: 290px) {
+  .project-info {
+    display: block;
+    text-align: center;
+    margin-top: 4vh;
+  }
+
+  .skill-cat {
+    font-size: 25px;
+  }
+
+  .skill-container li::after {
+    top: -0.6rem;
+  }
+}
