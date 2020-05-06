@@ -1,7 +1,7 @@
 #video {
   width: 100%;
   height: 55vh;
-  margin-top: 180px;
+  margin-top: 220px;
   margin-bottom: 10px;
 }
 
@@ -9,13 +9,17 @@
   height: 70vh;
 }
 
+
+@media only screen and (max-width: 800px) {
+  .bloc {
+    height: 45vh !important;
+  }
+}
+
+
 @media only screen and (max-width: 600px) {
-  .bloc{
-    display: block;
-    width: 80% !important;
-    height: 24vh !important;
-    margin-left: auto;
-    margin-right: auto;
+  .bloc {
+    height: 35vh !important;
     margin-top: 260px !important;
   }
 }

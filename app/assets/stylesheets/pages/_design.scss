@@ -44,8 +44,6 @@
   animation-duration: 3s;
 }
 
-
-
 .img-comp-container {
   position: relative;
   height: 55vh; /*should be the same height as the images*/
@@ -81,6 +79,45 @@
   border-radius: 50%;
 }
 
+@media only screen and (max-width: 1000px) {
+  .img-comp-container {
+    height: 55vh; /*should be the same height as the images*/
+    width: 530px;
+  }
+
+  .img-comp-img img {
+    height: 55vh;
+    width: 530px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .img-comp-container {
+    height: 45vh; /*should be the same height as the images*/
+    width: 440px;
+  }
+
+  .img-comp-img img {
+    height: 45vh;
+    width: 440px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .prev2, .next2 {
+      top: 45%;
+    }
+
+  .img-comp-container {
+    height: 50vh; /*should be the same height as the images*/
+    width: 500px;
+  }
+
+  .img-comp-img img {
+    height: 50vh;
+    width: 500px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .slideshow-container7 {
@@ -98,12 +135,16 @@
   }
 
   .img-comp-container {
-    height: 30vh; /*should be the same height as the images*/
-    width: 320px;
+    height: 37vh; /*should be the same height as the images*/
+    width: 350px;
   }
 
   .img-comp-img img {
-    height: 30vh;
-    width: 320px;
+    height: 37vh;
+    width: 350px;
+  }
+
+  .prev2, .next2 {
+    top: 60%;
   }
 }

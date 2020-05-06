@@ -131,7 +131,7 @@
 
 @media only screen and (max-width: 800px) {
   .prev, .next {
-    top: 60%;
+    top: 50%;
     opacity: 0.4;
     height: 20%;
     // background-color: red;
@@ -161,10 +161,6 @@
   .next {
     right: -18%;
     // cursor: pointer;
-  }
-
-  .prev2, .next2 {
-    top: 35%;
   }
 
   .prev {
