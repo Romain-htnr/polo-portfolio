@@ -7,7 +7,7 @@
     <div class="mySlides4 fade4">
       <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587319210/Polo/1_Rolly_mq8jxt.jpg">
     </div>
-    <video id="video" class="mySlides4 fade4" loop muted autoplay playsinline>
+    <video id="video4" class="mySlides4 fade4" loop muted autoplay playsinline>
       <source src="https://res.cloudinary.com/dgpkng6h9/video/upload/v1587485543/Polo/Animation_Rolly_zkscm8.mp4" type="video/mp4">
     </video>
     <div class="mySlides4 fade4">
@@ -21,14 +21,18 @@
     </div>
     <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides4(1)">&#10095;</a>
-    <div class="project-info jump">
+    <div class="project-info">
       <p class="title-project">Rolly</p>
       <p class="project-type"> <p class="hide">-</p>Modèle et impression 3D / Photographies Ted Kayumba-Kasongo</p>
     </div>
+    <div class="arrow bounce">
+      <i class="fas fa-arrow-down arrow"></i>
+    </div>
   </div>
-  <div class="arrow bounce">
-    <i class="fas fa-arrow-down arrow"></i>
-  </div>
+
+
+
+
 
   <div class="slideshow-container5" >
     <div class="mySlides5 fade5">
@@ -112,14 +116,14 @@ function showSlides5(n) {
   timer5 = setTimeout(showSlides5, 6000000);
 }
 
-video = jQuery('#video').get()[0];
+video4 = jQuery('#video4').get()[0];
 
-video.addEventListener('loadeddata', function() {
-      video.play();
+video4.addEventListener('loadeddata', function() {
+      video4.play();
 });
 
-video.addEventListener('pause', function() {
-    video.play();
+video4.addEventListener('pause', function() {
+    video4.play();
 });
 
 video3 = jQuery('#video3').get()[0];

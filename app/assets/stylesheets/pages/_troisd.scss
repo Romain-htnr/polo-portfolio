@@ -1,26 +1,31 @@
-.troisd-container {
-  margin-bottom: 40px;
-}
-
 .slideshow-container4 {
   position: relative;
   width: 60%;
+  height: 60vh;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 150px;
+}
+
+.slideshow-container4 > .project-info {
+  margin-top: 20px;
+}
+
+.slideshow-container4 > .arrow {
+  margin-top: 40px
 }
 
 .mySlides4 img {
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   object-fit: contain;
 }
 
 .slideshow-container4 video {
   width: 100%;
-  height: 80vh;
-  object-fit: cover;
+  height: 60vh;
+  object-fit: contain;
 }
 
 .slideshow-container5 {
@@ -55,30 +60,47 @@
   animation-duration: 3s;
 }
 
+@media only screen and (max-width: 800px) {
+  .slideshow-container4 > .prev, .next {
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 682px) {
+  .hide {
+    opacity: 0;
+    margin-top: -40px;
+  }
+
+  .slideshow-container4 > .project-info {
+    position: relative;
+    top: -40px;
+    display: block;
+    text-align: center
+  }
+
+}
+
 @media only screen and (max-width: 600px) {
-  .troisd-container {
-    margin-bottom: 20px;
-  }
+  // .slideshow-container4 {
+  //   width: 80%;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   margin-top: 180px;
+  // }
 
-  .slideshow-container4 {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 180px;
-  }
+  // .mySlides4 img {
+  //   width: 100%;
+  //   height: 40vh;
+  //   margin-top: 0px;
+  //   object-fit: contain;
+  // }
 
-  .mySlides4 img {
-    width: 100%;
-    height: 40vh;
-    margin-top: 0px;
-    object-fit: contain;
-  }
-
-  .slideshow-container4 video {
-    width: 100%;
-    height: 40vh;
-    object-fit: contain;
-  }
+  // .slideshow-container4 video {
+  //   width: 100%;
+  //   height: 40vh;
+  //   object-fit: contain;
+  // }
 
     .slideshow-container5 {
     width: 80%;
@@ -117,11 +139,6 @@
 
   .undervideo {
     margin-bottom: 0px !important;
-  }
-
-  .hide {
-    opacity: 0;
-    margin-top: -40px;
   }
 
   .jump{
