@@ -15,6 +15,17 @@
   z-index: 100;
 }
 
+.cpt {
+  opacity: 0.4;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: light;
+  font-size: 12px;
+  // position: absolute;
+  // left: 45%;
+  // bottom: 1%;
+}
+
 @media only screen and (max-width: 1000px) {
   .logo img{
     left: 20px;
