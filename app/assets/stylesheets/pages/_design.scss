@@ -117,12 +117,22 @@
     height: 50vh;
     width: 500px;
   }
+
+  .minus {
+    margin-top: -20vh;
+    // position: relative;
+    // top: -20vh;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .slideshow-container7 {
     height: 60vh;
     width: 80%;
+  }
+
+  .minus {
+    margin-top: 20px;
   }
 
   .slideshow-container6 {
