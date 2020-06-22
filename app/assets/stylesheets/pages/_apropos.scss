@@ -27,19 +27,19 @@
   word-spacing: 10px;
 }
 
-#video2 {
+.swing {
   margin: auto;
+  height: 70vh;
 }
 
-
 @media only screen and (max-width: 800px) {
-  #video2 {
+  .swing {
     height: 50vh;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  #video2 {
+  .swing {
     height: 40vh;
   }
 }
@@ -57,7 +57,7 @@
     margin-right: auto;
   }
 
-  #video2 {
+  .swing {
     position: relative;
     right: -10%;
     width: 70%;
