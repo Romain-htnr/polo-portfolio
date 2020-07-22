@@ -1,4 +1,3 @@
-
   <div class="page-name pgc1">graphisme</div>
   <%= link_to root_path, class: "logo" do %>
   <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1587472870/Polo/logotest_hzr8br.png" alt="logo">
@@ -60,13 +59,34 @@
     <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides3(1)">&#10095;</a>
   </div>
-  <div class="project-info diff last">
+  <div class="project-info diff">
     <p class="title-project">Affiches publicitaires</p>
     <p class="project-type"> - Illustration numérique, A4</p>
   </div>
+
+  <div class="arrow bounce ">
+    <i class="fas fa-arrow-down arrow"></i>
+  </div>
+
+  <div class="slideshow-container8" >
+    <div class="mySlides8 fade8">
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1595437124/Polo/Bie%CC%80re-1_whv7es.jpg" style="width:100%; height:80vh">
+    </div>
+    <div class="mySlides8 fade8">
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1595437124/Polo/Bie%CC%80re-2_uoywnb.jpg" style="width:100%; height:80vh">
+    </div>
+    <div class="mySlides8 fade8">
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1595437124/Polo/Bie%CC%80re-3_ejkw0x.jpg" style="width:100%; height:80vh">
+    </div>
+    <a class="prev" onclick="plusSlides8(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides8(1)">&#10095;</a>
+  </div>
+  <div class="project-info diff last">
+    <p class="title-project">Bière "Leo Pale"</p>
+    <p class="project-type"> - Illustration numérique</p>
+  </div>
 </div>
 <p class="cpt">Copyright © LPA</p>
-
 <script>
 var slideIndex = 1;
 var timer = null;
@@ -77,6 +97,9 @@ showSlides2(slideIndex2);
 var slideIndex3 = 1;
 var timer3 = null;
 showSlides3(slideIndex3);
+var slideIndex8 = 1;
+var timer8 = null;
+showSlides8(slideIndex8);
 //1ST SLIDESHOW
 function plusSlides(n) {
 clearTimeout(timer);
@@ -139,5 +162,26 @@ slides[i].style.display = "none";
 }
 slides[slideIndex3-1].style.display = "block";
 timer3 = setTimeout(showSlides3, 10000000);
+}
+
+function plusSlides8(n) {
+clearTimeout(timer8);
+showSlides8(slideIndex8 += n);
+}
+function currentSlide8(n) {
+clearTimeout(timer8);
+showSlides(slideIndex8 = n);
+}
+function showSlides8(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides8");
+if (n==undefined){n = ++slideIndex8}
+if (n > slides.length) {slideIndex8 = 1}
+if (n < 1) {slideIndex8 = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+slides[slideIndex8-1].style.display = "block";
+timer8 = setTimeout(showSlides8, 10000000);
 }
 </script>

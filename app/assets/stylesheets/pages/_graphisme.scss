@@ -32,6 +32,15 @@
   position: relative;
 }
 
+.slideshow-container8 {
+  width: 60%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
 /* Hide the images by default */
 .mySlides img {
   width: 60%;
@@ -54,6 +63,13 @@
   object-fit: contain;
 }
 
+.mySlides8 img {
+  width: 60%;
+  height: 83vh;
+  margin-top: 8px;
+  object-fit: contain;
+}
+
 
 /* Fading animation */
 .fade {
@@ -67,6 +83,11 @@
 }
 
 .fade3 {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.fade8 {
   animation-name: fade;
   animation-duration: 3s;
 }
@@ -117,6 +138,12 @@
   }
 
   .slideshow-container3 {
+    margin-bottom: 0px;
+    height: 68vh;
+    width: 80%;
+  }
+
+  .slideshow-container8 {
     margin-bottom: 0px;
     height: 68vh;
     width: 80%;
